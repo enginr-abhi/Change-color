@@ -1,8 +1,7 @@
-var index=0;
-
+let i=0;
 function changeColor(){
-    var color=["red","blue","orange","yellow","green","purple"];
-    document.getElementsByTagName("body")[0].style.background=color[index++];
-    if(index>color.length-1)
-        index=0;
+    let color=["red","blue","orange","yellow","green","purple"];
+    document.getElementsByTagName("body")[0].style.background=color[i++];
+    if(i>color.length-1)
+        i=0;
 }
